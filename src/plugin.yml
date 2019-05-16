@@ -1,0 +1,22 @@
+name: FlightBox
+main: me.kkdevs.fg
+version: "1.0"
+api: "1.0.8"
+author: kkdevs
+
+commands:
+  fly:
+    description: Fly UI Menu
+    usage: "/fly"
+    permission: fly.use
+  gm:
+    description: Gm Menu
+    usage: "/gm"
+    permission: gm.use
+permissions:
+  fly.use:
+    description: "Fly Permission"
+    default: op
+  gm.use:
+    description: "Gm Permission"
+    default: op
